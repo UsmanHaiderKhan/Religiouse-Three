@@ -1394,7 +1394,7 @@ button:focus {
     }
 
     .media-img-vh {
-        height: auto;
+        height: 49vh;
     }
 
     .mission-text {
@@ -1971,9 +1971,23 @@ button:focus {
 
 /*==================== Media Query For Land Scape Mode =====================*/
 @media screen and (max-width: 1280px) and (orientation: landscape) {
+    .media-other-mt {
+        margin-top: 20px;
+    }
+
+    .media-money-img-height {
+        height: 101.5vh;
+    }
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
+    .media-img-vh {
+        height: 86vh;
+    }
+
+    .media-money-img-height {
+        height: 102.3vh;
+    }
 }
 
 @media screen and (max-width: 823px) and (orientation: landscape) {
@@ -2041,6 +2055,10 @@ button:focus {
 
     .media-img-width {
         width: 100%;
+    }
+
+    .media-img-vh {
+        height: auto;
     }
 
     .mission-text {
@@ -2154,6 +2172,172 @@ button:focus {
 }
 
 @media screen and (max-width: 740px) and (orientation: landscape) {
+    .btn-donate {
+        width: 106px;
+        height: 39px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .ml-31-p {
+        margin-left: 4% !important;
+    }
+
+    .sleep {
+        padding: 6px 15px 3px 15px;
+    }
+
+    /*.scroll-logo-width {
+        width: 33% !important;
+        margin-left: auto !important;
+    }
+
+    .media-donate-mt {
+        margin-top: -50px;
+    }
+
+    .media-width {
+        width: 33%;
+        margin-left: auto !important;
+    }*/
+
+
+
+    #home .main-banner-text {
+        font-size: 43px;
+    }
+
+    #home .banner-sub-text {
+        font-size: 20px;
+    }
+
+    .btn-contact {
+        width: 142px;
+        height: 46px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .loving-text {
+        font-size: 24px;
+    }
+
+    .about-pera-text {
+        font-size: 16px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .pera-text {
+        font-size: 16px;
+    }
+
+    .media-img-width {
+        width: 100%;
+    }
+
+    .media-img-vh {
+        height: auto;
+    }
+
+    .mission-text {
+        font-size: 26px;
+    }
+
+    .jesus-text {
+        font-size: 26px;
+    }
+
+    #slider {
+        padding: 50px 0;
+    }
+
+        #slider .owl-theme .owl-dots .owl-dot {
+            display: inline-block !important;
+        }
+
+        #slider .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: 30px;
+            position: absolute;
+            left: 40%;
+            bottom: 0px;
+            top: 168px;
+        }
+
+        #slider .slider-pera-text {
+            font-size: 16px;
+        }
+
+    .service-text {
+        font-size: 30px;
+    }
+
+    .humanity-text {
+        font-size: 18px;
+    }
+
+    .containing:hover .overlay {
+        height: 66%;
+        display: block;
+    }
+
+    .my-gutter {
+        margin-right: 0;
+        margin-right: 0;
+    }
+
+    .overlay {
+        width: 94.8%;
+        height: 12%;
+    }
+
+    .cause-text {
+        font-size: 18px;
+    }
+
+    .media-money-img-height {
+        height: auto;
+    }
+
+    .make-text {
+        font-size: 30px;
+    }
+
+    .media-other-mt {
+        margin-top: 20px;
+    }
+
+    .gallery-pera {
+        font-size: 18px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    .contact-text {
+        font-size: 30px;
+    }
+
+    .contact-desc {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 35px;
+    }
+
+    #contact-us {
+        padding: 50px 0;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
@@ -2221,6 +2405,10 @@ button:focus {
 
     .media-img-width {
         width: 100%;
+    }
+
+    .media-img-vh {
+        height: auto;
     }
 
     .mission-text {
@@ -2386,6 +2574,10 @@ button:focus {
 
     .media-img-width {
         width: 100%;
+    }
+
+    .media-img-vh {
+        height: auto;
     }
 
     .mission-text {
@@ -2554,6 +2746,10 @@ button:focus {
 
     .media-img-width {
         width: 100%;
+    }
+
+    .media-img-vh {
+        height: auto;
     }
 
     .mission-text {
