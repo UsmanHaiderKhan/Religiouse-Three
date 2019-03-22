@@ -1,0 +1,2655 @@
+﻿/*================================= 
+        Font-Family's Start
+  =================================*/
+@font-face {
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+    src: url('../../Fonts/FontsFree-Net-Proxima-Nova-Bold (1).otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'HeimatSans-Bold';
+    src: url('../../Fonts/HeimatSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'HeimatSans-ExtraBoldIt';
+    src: url('../../Fonts/HeimatSans-ExtraBoldIt.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'HeimatSans-Regular';
+    src: url('../../Fonts/HeimatSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'HeimatSans-SemiBold';
+    src: url('../../Fonts/HeimatSans-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'HermeneusOne-Regular';
+    src: url('../../Fonts/HermeneusOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NassimLatn-Sb';
+    src: url('../../Fonts/NassimLatn-Sb.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../../Fonts/Proxima Nova Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src: url('../../Fonts/ProximaNova-Regular.otf') format('opentype');
+}
+/*================================= 
+        Font-Family's End
+  =================================*/
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+
+/*================================= 
+    Navbar Section Styling
+  =================================*/
+
+#home .active a {
+    position: relative;
+    display: inline-block;
+    color: #02c661 !important;
+    font-family: 'HeimatSans-Bold';
+}
+
+#home .nav-bg-color {
+    background-color: rgba(255, 255, 255,.749);
+    opacity: 0.749;
+}
+
+#home .nav-color {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.scroll-logo-width {
+    width: 54% !important;
+}
+
+.sleep {
+    padding: 15px 100px 15px 100px;
+    transition: all .4s ease-in-out;
+}
+
+.ml-31-p {
+    margin-left: 31% !important;
+}
+
+.nav-setting-on-scroll {
+    padding: 0px 20px !important;
+}
+
+.easy-nav-on-scroll {
+    margin-top: 0;
+    transition: all 0.6s ease-in-out;
+}
+
+.nav-item {
+    position: relative;
+    padding: 0px 21px 5px 21px;
+}
+
+#my-nav-brand .navbar-brand {
+    display: inline;
+    margin-right: 0;
+}
+
+.nav-trans {
+    transition: padding 400ms linear;
+}
+
+.fixed-top {
+    transition: all .5s ease-in-out;
+}
+
+#home .navbar-light .navbar-nav .nav-link {
+    color: #222222;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-family: 'HeimatSans-Bold';
+}
+
+
+    #home .navbar-light .navbar-nav .nav-link.scrolled {
+        color: #6c6c6c;
+        font-weight: 600;
+        font-size: 22px;
+        text-decoration: none;
+        background-color: transparent;
+        transition: font-size 400ms linear;
+        text-transform: capitalize;
+        font-family: 'HeimatSans-Bold';
+    }
+
+.banner-padding-top {
+    padding: 80px 0;
+}
+
+#home {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    #home .main-banner-text {
+        font-size: 69px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: 'HeimatSans-Bold';
+        text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+    }
+
+
+    #home .banner-sub-text {
+        font-size: 22px;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'HeimatSans-Bold';
+    }
+
+.btn-contact {
+    width: 175px;
+    height: 57px;
+    border: none;
+    border-radius: 0;
+    color: #ffffff;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-family: 'HeimatSans-Bold';
+    font-size: 16px;
+    border: none;
+    background-image: -moz-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+}
+
+    .btn-contact:hover {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+.btn-donate {
+    width: 167px;
+    height: 57px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 45px;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: 'HeimatSans-SemiBold';
+    background-color: rgb(0, 41, 88);
+}
+
+    .btn-donate:hover {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+#home .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+#home .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#home .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+    #home .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+    }
+
+#home .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    #home .overlay a {
+        font-size: 20px
+    }
+
+    #home .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+/*================================= 
+    About Section Styling
+  =================================*/
+.loving-text {
+    color: #000000;
+    font-size: 40px;
+    font-family: 'HeimatSans-Bold';
+}
+
+.below-line {
+    position: relative;
+    display: block;
+}
+
+    .below-line:after {
+        content: '';
+        position: absolute;
+        bottom: -13px;
+        left: 0px;
+        width: 16%;
+        height: 2px;
+        position: absolute;
+        border: 2px solid #0675be;
+    }
+
+.about-pera-text {
+    color: #696969;
+    font-size: 18px;
+    font-family: 'HeimatSans-Bold';
+}
+
+.about-icon-bg-color {
+    width: 101px;
+    height: 101px;
+    padding: 7px;
+    line-height: 78px;
+    background-image: -moz-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+}
+
+.about-second-bg-color {
+    width: 101px;
+    height: 101px;
+    padding: 7px 29px;
+    line-height: 78px;
+    background-image: -moz-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+}
+
+.heading-text {
+    color: #343434;
+    font-size: 22px;
+    font-family: 'HeimatSans-Bold';
+}
+
+.pera-text {
+    color: #858585;
+    font-size: 18px;
+    font-family: 'HeimatSans-SemiBold';
+}
+
+/*================================= 
+     Slider Section Styling
+  =================================*/
+#slider {
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.mission-text {
+    color: #ffffff;
+    font-size: 42px;
+    font-family: 'HeimatSans-ExtraBoldIt';
+}
+
+.jesus-text {
+    color: #39b54a;
+    font-size: 42px;
+    font-family: 'HeimatSans-ExtraBoldIt';
+}
+
+.slider-pera-text {
+    color: #9f9f9f;
+    font-size: 20px;
+    font-family: 'HeimatSans-Bold';
+}
+
+#slider .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+}
+
+#slider .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+#slider .owl-theme .owl-dots .owl-dot span {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: transparent;
+}
+
+#slider .owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #ffffff;
+    background: transparent;
+}
+
+#slider .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 30px;
+    position: absolute;
+    left: -341px;
+    top: 43px;
+}
+
+#slider .owl-theme .owl-dots .owl-dot {
+    display: flex !important;
+}
+/*================================= 
+    Service Section Styling
+  =================================*/
+.humanity-text {
+    color: #2c81c3;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: 'HeimatSans-Bold';
+}
+
+.service-text {
+    color: #002958;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'HermeneusOne-Regular';
+}
+
+
+.containing {
+    position: relative;
+}
+
+.image {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 22%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: .5s ease;
+}
+
+.containing:hover .overlay {
+    height: 91%;
+    display: block;
+    overflow-y: auto;
+}
+
+.containing:hover .tech-block {
+    display: block;
+}
+
+.tech-block {
+    display: none;
+}
+
+#services [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 30px;
+    font-style: normal;
+    color: #fff;
+    margin-left: 0px;
+}
+
+.image-radius {
+    border-radius: 20px;
+}
+
+#services .card {
+    border-radius: 20px;
+}
+
+.card-desc-text {
+    color: #c8c8c8;
+    font-size: 18px;
+    text-align: center;
+    padding: 7px;
+    font-family: 'HeimatSans-Bold';
+}
+
+.card-heading {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'HeimatSans-Bold';
+}
+/*================================= 
+     Donation Section Styling
+  =================================*/
+.donation-bg {
+    padding: 43px 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cause-text {
+    color: #0675be;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'HeimatSans-Bold';
+}
+
+.make-text {
+    color: #1c1c1c;
+    font-size: 50px;
+    font-family: 'NassimLatn-Sb';
+}
+
+.form-check-inline .form-check-input {
+    display: none;
+}
+
+.display-none {
+    display: none;
+}
+
+.my-control {
+    width: 63%;
+    height: 50px;
+    border: 2px solid #002958;
+    background: transparent;
+    color: #002958;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.form-check-label {
+    border-radius: 21px;
+    background-image: -moz-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    color: #ffffff;
+    line-height: 10px;
+    width: 99px;
+    height: 43px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'HeimatSans-Bold';
+    padding: 15px 10px;
+}
+
+.form-check-label-other {
+    border: 2px solid #2c81c3;
+    background: transparent;
+    border-radius: 21px;
+    color: #0969a8;
+    line-height: 10px;
+    width: 99px;
+    height: 43px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'HeimatSans-Bold';
+    padding: 15px 10px;
+}
+
+.color-text {
+    color: #f7941d;
+}
+
+.money-text {
+    color: #4a4a4a;
+    font-size: 21px;
+    font-family: 'HeimatSans-Bold';
+}
+
+.btn-donation {
+    width: 152px;
+    height: 49px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-image: -moz-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+}
+
+    .btn-donation:hover {
+        color: #ffffff;
+        background-image: -moz-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    }
+
+
+.show-hide {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0;
+    margin-right: 0.75rem;
+}
+
+#donation .donation-input {
+    height: 40px;
+    width: 100%;
+    padding: 0 16px;
+    background: transparent;
+    border-width: 2px;
+    border-color: rgb(187, 187, 187);
+    border-style: solid;
+}
+
+#donation ::placeholder {
+    color: #b6b6b7;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'HeimatSans-Bold';
+}
+
+
+
+.fund-text {
+    color: #404040;
+    font-size: 28px;
+    text-transform: capitalize;
+    font-family: 'NassimLatn-Sb';
+}
+
+
+.audio-progress {
+    height: .9rem;
+    border-radius: 22px;
+    width: 100%;
+    background-color: #dbdbdb;
+}
+
+    .audio-progress .bar {
+        height: 100%;
+        background-color: #0a6cac;
+    }
+
+#audio-progress-handle {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-top: -14px;
+    margin-left: -27px;
+    width: 40px;
+    height: 41px;
+    transform: rotate(0deg);
+    border-radius: 100%;
+    background-image: -moz-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.counter-text {
+    padding: 11px 9px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'HeimatSans-Bold';
+}
+
+.draggable {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+/*================================= 
+     Gallery Section Styling
+  =================================*/
+
+.gallery-pera {
+    color: #6b6b6b;
+    font-size: 20px;
+    font-family: 'HeimatSans-SemiBold';
+}
+
+.no-display {
+    display: none;
+}
+/*================================= 
+      Slider Section Styling
+  =================================*/
+#owl-slider-section {
+    background: #eaf2f7;
+    padding: 70px 0;
+}
+
+    #owl-slider-section .card-body {
+        padding: 0;
+    }
+
+.card-bg-color {
+    border-width: 0px;
+    padding: 10px;
+    border-style: solid;
+    background-image: -moz-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+}
+
+.designation-text {
+    font-size: 24px;
+    font-family: 'HeimatSans-Bold';
+    color: rgb(247, 148, 29);
+    -moz-transform: matrix( 1.00090862038277,0,0,0.99568956082653,0,0);
+    -webkit-transform: matrix( 1.00090862038277,0,0,0.99568956082653,0,0);
+    -ms-transform: matrix( 1.00090862038277,0,0,0.99568956082653,0,0);
+}
+
+.card-name-text {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'HeimatSans-Bold';
+}
+
+.card-shadow {
+    -webkit-box-shadow: 3px 2px 7px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 7px -4px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 7px -4px rgba(0,0,0,0.75);
+}
+
+.owl-nav {
+    position: relative;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: -75px;
+    bottom: 290px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: -75px;
+    bottom: 290px;
+}
+
+#owl-slider-section [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: 48px;
+    color: #0b6cac;
+    margin-left: 0;
+}
+
+#owl-slider-section .owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    color: #0b6cac;
+}
+/*================================= 
+     Contact Section Styling
+  =================================*/
+#contact-us {
+    padding: 90px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-text {
+    color: #fafcfe;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+}
+
+.below-contact {
+    position: relative;
+    display: block;
+}
+
+    .below-contact:after {
+        content: '';
+        position: absolute;
+        bottom: -13px;
+        width: 19%;
+        height: 2px;
+        left: 40%;
+        position: absolute;
+        border: 2px solid #ffffff;
+    }
+
+.contact-desc {
+    color: #b0b0b1;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+}
+
+#contact-us ::placeholder {
+    color: #a2a1a1;
+    font-size: 16px;
+    font-family: 'ProximaNova-Regular';
+}
+
+.input-field {
+    background: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(203, 203, 203);
+    border-radius: 4px;
+    height: 56px;
+    font-size: 16px;
+    width: 100%;
+    color: #a2a1a1;
+    padding: 15px;
+    font-family: 'ProximaNova-Regular';
+}
+
+.text-area {
+    background: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(203, 203, 203);
+    border-radius: 4px;
+    height: auto;
+    font-size: 16px;
+    width: 100%;
+    color: #a2a1a1;
+    padding: 15px;
+    resize: none;
+    font-family: 'ProximaNova-Regular';
+}
+
+.btn-submit {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 50px;
+    height: 61px;
+    border-radius: 5px;
+    font-family: 'FontsFree-Net-Proxima-Nova-Bold (1)';
+    background-image: -moz-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(33,154,233) 100%);
+    text-transform: uppercase;
+}
+
+.main-heading {
+    color: #fafcfe;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-desc {
+    color: #fafcfe;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact-us [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    color: #ffffff;
+    font-size: 50px;
+    margin-left: 0;
+}
+
+.footer-bg-color {
+    background: #111213;
+    padding: 24px 24px 20px 24px;
+}
+
+.footer-font {
+    color: #ced0d2;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #fafcfe;
+}
+
+    .link-style:hover {
+        text-decoration: none;
+        color: #fafcfe;
+    }
+/*================================= 
+          Read More Styling
+  =================================*/
+.comments-space {
+    text-align: justify;
+}
+
+.comments-spaces {
+    text-align: justify;
+}
+
+.remaining-contents span {
+    display: none;
+}
+
+
+/*=================== Custome Margins ===================*/
+.mt--180 {
+    margin-top: -180px;
+}
+
+.mt--375 {
+    margin-top: -375px;
+}
+
+.mt--100 {
+    margin-top: -100px;
+}
+
+.mt--55 {
+    margin-top: -55px;
+}
+
+.mt--44 {
+    margin-top: -44px;
+}
+
+.mt--9 {
+    margin-top: -9px;
+}
+
+.mt-300 {
+    margin-top: 300px;
+}
+
+.mt-290 {
+    margin-top: 290px;
+}
+
+.mt-280 {
+    margin-top: 280px;
+}
+
+.mt-270 {
+    margin-top: 270px;
+}
+
+.mt-260 {
+    margin-top: 260px;
+}
+
+.mt-250 {
+    margin-top: 250px;
+}
+
+.mt-240 {
+    margin-top: 240px;
+}
+
+.mt-230 {
+    margin-top: 230px;
+}
+
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-140 {
+    margin-top: 140px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.mt-115 {
+    margin-top: 115px;
+}
+
+.mt-110 {
+    margin-top: 110px;
+}
+
+.mt-108 {
+    margin-top: 108px;
+}
+
+.mt-106 {
+    margin-top: 106px;
+}
+
+.mt-105 {
+    margin-top: 105px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-99 {
+    margin-top: 99px;
+}
+
+.mt-98 {
+    margin-top: 98px;
+}
+
+.mt-97 {
+    margin-top: 97px;
+}
+
+.mt-96 {
+    margin-top: 96px;
+}
+
+.mt-95 {
+    margin-top: 95px;
+}
+
+.mt-94 {
+    margin-top: 94px;
+}
+
+.mt-93 {
+    margin-top: 93px;
+}
+
+.mt-91 {
+    margin-top: 91px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt-89 {
+    margin-top: 89px;
+}
+
+.mt-88 {
+    margin-top: 88px;
+}
+
+.mt-87 {
+    margin-top: 87px;
+}
+
+.mt-86 {
+    margin-top: 86px;
+}
+
+.mt-85 {
+    margin-top: 85px;
+}
+
+.mt-84 {
+    margin-top: 84px;
+}
+
+.mt-83 {
+    margin-top: 83px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-75 {
+    margin-top: 75px;
+}
+
+.mt-74 {
+    margin-top: 74px;
+}
+
+.mt-73 {
+    margin-top: 73px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-65 {
+    margin-top: 65px;
+}
+
+.mt-64 {
+    margin-top: 64px;
+}
+
+.mt-63 {
+    margin-top: 63px;
+}
+
+.mt-62 {
+    margin-top: 62px;
+}
+
+.mt-61 {
+    margin-top: 61px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.mt-53 {
+    margin-top: 53px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-49 {
+    margin-top: 49px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mt-47 {
+    margin-top: 47px;
+}
+
+.mt-46 {
+    margin-top: 46px;
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+
+.mt-44 {
+    margin-top: 44px;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.mt-42 {
+    margin-top: 42px;
+}
+
+.mt-41 {
+    margin-top: 41px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-34 {
+    margin-top: 34px;
+}
+
+.mt-33 {
+    margin-top: 32px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt-31 {
+    margin-top: 31px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-29 {
+    margin-top: 29px;
+}
+
+.mt-28 {
+    margin-top: 28px;
+}
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+.mt-26 {
+    margin-top: 26px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-21 {
+    margin-top: 21px;
+}
+
+.mt-22 {
+    margin-top: 22px;
+}
+
+.mt-23 {
+    margin-top: 23px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-18 {
+    margin-top: 18px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+/*=========== Margin Bottom ===========*/
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+}
+
+.mb-160 {
+    margin-bottom: 160px;
+}
+
+.b-50 {
+    bottom: 50px;
+}
+
+.b-30 {
+    bottom: 30px;
+}
+/*================ Margin-Left ===================*/
+.ml-23 {
+    margin-left: 23px;
+}
+
+.ml-77 {
+    margin-left: 77%;
+}
+/*================ Padding-Top ===================*/
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+
+
+/*======= Some Commen Styling ======*/
+
+
+button:focus {
+    outline: none;
+    outline: none;
+}
+
+.btn-load-more {
+    width: 175px;
+    height: 57px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #002958;
+    font-family: 'HeimatSans-Bold';
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+/*------ Scrolling Css --------*/
+/* width */
+.containing .overlay::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.containing .overlay::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black;
+    border-radius: 20px;
+}
+
+/* Handle */
+.containing .overlay::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 20px;
+}
+
+    /* Handle on hover */
+    .containing .overlay::-webkit-scrollbar-thumb:hover {
+        background: #000000;
+    }
+/*---------------------------*/
+.list-styling {
+    list-style: none;
+}
+/*================ Media Query ===============*/
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1367px) {
+}
+
+@media screen and (max-width: 1024px) {
+    .ml-31-p {
+        margin-left: 24% !important;
+    }
+
+    .btn-donate {
+        width: 106px;
+        height: 39px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .sleep {
+        padding: 6px 15px 3px 15px;
+    }
+
+    .scroll-logo-width {
+        width: 50% !important;
+        margin-left: 175px !important;
+    }
+
+    .media-donate-mt {
+        margin-top: 0px;
+    }
+
+    .media-width {
+        width: 47%;
+        margin-left: 101px !important;
+    }
+
+
+
+    #home .main-banner-text {
+        font-size: 34px;
+    }
+
+    #home .banner-sub-text {
+        font-size: 18px;
+    }
+
+    .btn-contact {
+        width: 142px;
+        height: 46px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .loving-text {
+        font-size: 24px;
+    }
+
+    .about-pera-text {
+        font-size: 16px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .pera-text {
+        font-size: 16px;
+    }
+
+    .media-img-width {
+        width: 100%;
+    }
+
+    .media-img-vh {
+        height: auto;
+    }
+
+    .mission-text {
+        font-size: 26px;
+    }
+
+    .jesus-text {
+        font-size: 26px;
+    }
+
+    #slider {
+        padding: 50px 0;
+    }
+
+        #slider .owl-theme .owl-dots .owl-dot {
+            display: flex !important;
+        }
+
+        #slider .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: 30px;
+            position: absolute;
+            left: -32%;
+            bottom: 0px;
+            top: 20px;
+        }
+
+        #slider .slider-pera-text {
+            font-size: 16px;
+        }
+
+    .service-text {
+        font-size: 30px;
+    }
+
+    .humanity-text {
+        font-size: 18px;
+    }
+
+    .containing:hover .overlay {
+        height: 90%;
+        display: block;
+    }
+
+    .card-heading {
+        font-size: 19px;
+    }
+
+    .card-desc-text {
+        font-size: 16px;
+    }
+
+    .overlay {
+        height: 29%;
+    }
+
+    .cause-text {
+        font-size: 18px;
+    }
+
+    .media-money-img-height {
+        height: 57.6vh;
+    }
+
+    .make-text {
+        font-size: 30px;
+    }
+
+    .media-other-mt {
+        margin-top: 20px;
+    }
+
+    .gallery-pera {
+        font-size: 18px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    #owl-slider-section [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 30px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        right: -43px;
+        bottom: 245px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        left: -43px;
+        bottom: 245px;
+    }
+
+    .contact-text {
+        font-size: 30px;
+    }
+
+    .contact-desc {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 35px;
+    }
+
+    #contact-us {
+        padding: 50px 0;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .ml-31-p {
+        margin-left: 14% !important;
+    }
+
+    .btn-contact {
+        width: 142px;
+        height: 46px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .loving-text {
+        font-size: 31px;
+    }
+
+    .about-pera-text {
+        font-size: 20px;
+    }
+
+    .heading-text {
+        font-size: 23px;
+    }
+
+    .pera-text {
+        font-size: 20px;
+    }
+
+    .media-money-img-height {
+        height: 64.7vh;
+    }
+
+    .media-img-vh {
+        height: auto;
+    }
+    /*.money-text {
+        font-size: 20px;
+    }*/ #owl-slider-section [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 30px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        right: -43px;
+        bottom: 551px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        left: -43px;
+        bottom: 551px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ml-31-p {
+        margin-left: 15% !important;
+    }
+
+    .btn-donate {
+        width: 106px;
+        height: 39px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .sleep {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .scroll-logo-width {
+        width: 50% !important;
+        margin-left: 175px !important;
+    }
+
+    .media-donate-mt {
+        margin-top: 0px;
+    }
+
+    .media-width {
+        width: 47%;
+        margin-left: 101px !important;
+    }
+
+    #home .main-banner-text {
+        font-size: 34px;
+    }
+
+    #home .banner-sub-text {
+        font-size: 18px;
+    }
+
+    .btn-contact {
+        width: 142px;
+        height: 46px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .loving-text {
+        font-size: 31px;
+    }
+
+    .about-pera-text {
+        font-size: 20px;
+    }
+
+    .heading-text {
+        font-size: 23px;
+    }
+
+    .pera-text {
+        font-size: 20px;
+    }
+
+    .media-img-width {
+        width: 100%;
+    }
+
+    .media-img-vh {
+        height: auto;
+    }
+
+    .mission-text {
+        font-size: 26px;
+    }
+
+    .jesus-text {
+        font-size: 26px;
+    }
+
+    #slider {
+        padding: 50px 0;
+    }
+
+        #slider .owl-theme .owl-dots .owl-dot {
+            display: flex !important;
+        }
+
+        #slider .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: 30px;
+            position: absolute;
+            left: -32%;
+            bottom: 0px;
+            top: 20px;
+        }
+
+        #slider .slider-pera-text {
+            font-size: 16px;
+        }
+
+    .service-text {
+        font-size: 30px;
+    }
+
+    .humanity-text {
+        font-size: 18px;
+    }
+
+    .containing:hover .overlay {
+        height: 90%;
+        display: block;
+    }
+
+    .overlay {
+        height: 31%;
+    }
+
+    .cause-text {
+        font-size: 18px;
+    }
+
+    .money-text {
+        font-size: 17px;
+    }
+
+    .media-money-align {
+        text-align: center;
+    }
+    /*.media-money-img-height {
+        height: 75vh;
+    }*/
+
+    .make-text {
+        font-size: 30px;
+    }
+
+    .media-other-mt {
+        margin-top: 20px;
+    }
+
+    .gallery-pera {
+        font-size: 18px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    #owl-slider-section [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 30px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        right: -43px;
+        bottom: 245px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        left: -43px;
+        bottom: 245px;
+    }
+
+
+
+    .contact-text {
+        font-size: 30px;
+    }
+
+    .contact-desc {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 35px;
+    }
+
+    #contact-us {
+        padding: 50px 0;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .ml-31-p {
+        margin-left: 0% !important;
+    }
+
+    .btn-donate {
+        width: 106px;
+        height: 39px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .sleep {
+        padding: 6px 15px 3px 15px;
+    }
+
+    .scroll-logo-width {
+        width: 33% !important;
+        margin-left: auto !important;
+    }
+
+    .media-donate-mt {
+        margin-top: -50px;
+    }
+
+    .media-width {
+        width: 33%;
+        margin-left: auto !important;
+    }
+
+
+
+    #home .main-banner-text {
+        font-size: 34px;
+    }
+
+    #home .banner-sub-text {
+        font-size: 18px;
+    }
+
+    .btn-contact {
+        width: 142px;
+        height: 46px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .loving-text {
+        font-size: 24px;
+    }
+
+    .about-pera-text {
+        font-size: 16px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .pera-text {
+        font-size: 16px;
+    }
+
+    .media-img-width {
+        width: 100%;
+    }
+
+    .mission-text {
+        font-size: 26px;
+    }
+
+    .jesus-text {
+        font-size: 26px;
+    }
+
+    #slider {
+        padding: 50px 0;
+    }
+
+        #slider .owl-theme .owl-dots .owl-dot {
+            display: inline-block !important;
+        }
+
+        #slider .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: 30px;
+            position: absolute;
+            left: 40%;
+            bottom: 0px;
+            top: 222px;
+        }
+
+        #slider .slider-pera-text {
+            font-size: 16px;
+        }
+
+    .service-text {
+        font-size: 30px;
+    }
+
+    .humanity-text {
+        font-size: 18px;
+    }
+
+    .containing:hover .overlay {
+        height: 66%;
+        display: block;
+    }
+
+    .overlay {
+        height: 15%;
+    }
+
+    .cause-text {
+        font-size: 18px;
+    }
+
+    .media-money-img-height {
+        height: auto;
+    }
+
+    .make-text {
+        font-size: 30px;
+    }
+
+    .media-other-mt {
+        margin-top: 20px;
+    }
+
+    .gallery-pera {
+        font-size: 18px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    .contact-text {
+        font-size: 30px;
+    }
+
+    .contact-desc {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 35px;
+    }
+
+    #contact-us {
+        padding: 50px 0;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 360px) {
+    .sleep {
+        padding: 2px 8px 0px 4px;
+    }
+
+    .heading-text {
+        font-size: 15px;
+    }
+
+    .pera-text {
+        font-size: 13px;
+    }
+
+    .about-pera-text {
+        font-size: 15px;
+    }
+
+    #slider .owl-theme .owl-nav.disabled + .owl-dots {
+        top: 245px;
+    }
+
+    .mission-text {
+        font-size: 22px;
+    }
+
+    div.jesus-text {
+        font-size: 23px;
+    }
+
+    .slider-pera-text {
+        font-size: 16px;
+    }
+
+    .gallery-pera {
+        font-size: 17px;
+    }
+
+    .designation-text {
+        font-size: 18px;
+    }
+
+    .card-name-text {
+        font-size: 20px;
+    }
+
+    .media-money-img-height {
+        height: auto;
+    }
+}
+
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media screen and (max-width: 1280px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .btn-donate {
+        width: 106px;
+        height: 39px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .ml-31-p {
+        margin-left: 14% !important;
+    }
+
+    .sleep {
+        padding: 6px 15px 3px 15px;
+    }
+
+    /*.scroll-logo-width {
+        width: 33% !important;
+        margin-left: auto !important;
+    }
+
+    .media-donate-mt {
+        margin-top: -50px;
+    }
+
+    .media-width {
+        width: 33%;
+        margin-left: auto !important;
+    }*/
+
+
+
+    #home .main-banner-text {
+        font-size: 43px;
+    }
+
+    #home .banner-sub-text {
+        font-size: 20px;
+    }
+
+    .btn-contact {
+        width: 142px;
+        height: 46px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .loving-text {
+        font-size: 24px;
+    }
+
+    .about-pera-text {
+        font-size: 16px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .pera-text {
+        font-size: 16px;
+    }
+
+    .media-img-width {
+        width: 100%;
+    }
+
+    .mission-text {
+        font-size: 26px;
+    }
+
+    .jesus-text {
+        font-size: 26px;
+    }
+
+    #slider {
+        padding: 50px 0;
+    }
+
+        #slider .owl-theme .owl-dots .owl-dot {
+            display: flex !important;
+        }
+
+        #slider .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: 30px;
+            position: absolute;
+            left: -40%;
+            bottom: 0px;
+            top: 34px;
+        }
+
+        #slider .slider-pera-text {
+            font-size: 16px;
+        }
+
+    .service-text {
+        font-size: 30px;
+    }
+
+    .humanity-text {
+        font-size: 18px;
+    }
+
+    .containing:hover .overlay {
+        height: 80%;
+        display: block;
+    }
+
+    .my-gutter {
+        margin-right: 0;
+        margin-right: 0;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 20%;
+    }
+
+    .cause-text {
+        font-size: 18px;
+    }
+
+    .media-money-align {
+        text-align: center;
+    }
+
+    .media-money-img-height {
+        height: auto;
+    }
+
+    .make-text {
+        font-size: 30px;
+    }
+
+    .media-other-mt {
+        margin-top: 20px;
+    }
+
+    .gallery-pera {
+        font-size: 18px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next {
+        bottom: 530px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        bottom: 530px;
+    }
+
+    .contact-text {
+        font-size: 30px;
+    }
+
+    .contact-desc {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 35px;
+    }
+
+    #contact-us {
+        padding: 50px 0;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 740px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .btn-donate {
+        width: 106px;
+        height: 39px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .ml-31-p {
+        margin-left: 4% !important;
+    }
+
+    .sleep {
+        padding: 6px 15px 3px 15px;
+    }
+
+    /*.scroll-logo-width {
+        width: 33% !important;
+        margin-left: auto !important;
+    }
+
+    .media-donate-mt {
+        margin-top: -50px;
+    }
+
+    .media-width {
+        width: 33%;
+        margin-left: auto !important;
+    }*/
+
+
+
+    #home .main-banner-text {
+        font-size: 43px;
+    }
+
+    #home .banner-sub-text {
+        font-size: 20px;
+    }
+
+    .btn-contact {
+        width: 142px;
+        height: 46px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .loving-text {
+        font-size: 24px;
+    }
+
+    .about-pera-text {
+        font-size: 16px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .pera-text {
+        font-size: 16px;
+    }
+
+    .media-img-width {
+        width: 100%;
+    }
+
+    .mission-text {
+        font-size: 26px;
+    }
+
+    .jesus-text {
+        font-size: 26px;
+    }
+
+    #slider {
+        padding: 50px 0;
+    }
+
+        #slider .owl-theme .owl-dots .owl-dot {
+            display: inline-block !important;
+        }
+
+        #slider .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: 30px;
+            position: absolute;
+            left: 40%;
+            bottom: 0px;
+            top: 168px;
+        }
+
+        #slider .slider-pera-text {
+            font-size: 16px;
+        }
+
+    .service-text {
+        font-size: 30px;
+    }
+
+    .humanity-text {
+        font-size: 18px;
+    }
+
+    .containing:hover .overlay {
+        height: 66%;
+        display: block;
+    }
+
+    .my-gutter {
+        margin-right: 0;
+        margin-right: 0;
+    }
+
+    .overlay {
+        width: 94.8%;
+        height: 12%;
+    }
+
+    .cause-text {
+        font-size: 18px;
+    }
+
+    .media-money-img-height {
+        height: auto;
+    }
+
+    .make-text {
+        font-size: 30px;
+    }
+
+    .media-other-mt {
+        margin-top: 20px;
+    }
+
+    .gallery-pera {
+        font-size: 18px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    .contact-text {
+        font-size: 30px;
+    }
+
+    .contact-desc {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 35px;
+    }
+
+    #contact-us {
+        padding: 50px 0;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 731px) and (orientation: landscape) {
+    .btn-donate {
+        width: 106px;
+        height: 39px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .ml-31-p {
+        margin-left: 0% !important;
+    }
+
+    .sleep {
+        padding: 6px 15px 3px 15px;
+    }
+
+    /*.scroll-logo-width {
+        width: 33% !important;
+        margin-left: auto !important;
+    }
+
+    .media-donate-mt {
+        margin-top: -50px;
+    }
+
+    .media-width {
+        width: 33%;
+        margin-left: auto !important;
+    }*/
+
+
+
+    #home .main-banner-text {
+        font-size: 43px;
+    }
+
+    #home .banner-sub-text {
+        font-size: 20px;
+    }
+
+    .btn-contact {
+        width: 142px;
+        height: 46px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .loving-text {
+        font-size: 24px;
+    }
+
+    .about-pera-text {
+        font-size: 16px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .pera-text {
+        font-size: 16px;
+    }
+
+    .media-img-width {
+        width: 100%;
+    }
+
+    .mission-text {
+        font-size: 26px;
+    }
+
+    .jesus-text {
+        font-size: 26px;
+    }
+
+    #slider {
+        padding: 50px 0;
+    }
+
+        #slider .owl-theme .owl-dots .owl-dot {
+            display: inline-block !important;
+        }
+
+        #slider .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: 30px;
+            position: absolute;
+            left: 40%;
+            bottom: 0px;
+            top: 168px;
+        }
+
+        #slider .slider-pera-text {
+            font-size: 16px;
+        }
+
+    .service-text {
+        font-size: 30px;
+    }
+
+    .humanity-text {
+        font-size: 18px;
+    }
+
+    .containing:hover .overlay {
+        height: 66%;
+        display: block;
+    }
+
+    .my-gutter {
+        margin-right: 0;
+        margin-right: 0;
+    }
+
+    .overlay {
+        width: 94.8%;
+        height: 12%;
+    }
+
+    .cause-text {
+        font-size: 18px;
+    }
+
+    .media-money-img-height {
+        height: auto;
+    }
+
+    .make-text {
+        font-size: 30px;
+    }
+
+    .media-other-mt {
+        margin-top: 20px;
+    }
+
+    .gallery-pera {
+        font-size: 18px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    .contact-text {
+        font-size: 30px;
+    }
+
+    .contact-desc {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 35px;
+    }
+
+    #contact-us {
+        padding: 50px 0;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .btn-donate {
+        width: 106px;
+        height: 39px;
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .ml-31-p {
+        margin-left: 0% !important;
+    }
+
+    .sleep {
+        padding: 6px 15px 3px 15px;
+    }
+
+    /*.scroll-logo-width {
+        width: 33% !important;
+        margin-left: auto !important;
+    }
+
+    .media-donate-mt {
+        margin-top: -50px;
+    }
+
+    .media-width {
+        width: 33%;
+        margin-left: auto !important;
+    }*/
+
+
+
+    #home .main-banner-text {
+        font-size: 43px;
+    }
+
+    #home .banner-sub-text {
+        font-size: 20px;
+    }
+
+    .btn-contact {
+        width: 142px;
+        height: 46px;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .loving-text {
+        font-size: 24px;
+    }
+
+    .about-pera-text {
+        font-size: 16px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .pera-text {
+        font-size: 16px;
+    }
+
+    .media-img-width {
+        width: 100%;
+    }
+
+    .mission-text {
+        font-size: 26px;
+    }
+
+    .jesus-text {
+        font-size: 26px;
+    }
+
+    #slider {
+        padding: 50px 0;
+    }
+
+        #slider .owl-theme .owl-dots .owl-dot {
+            display: inline-block !important;
+        }
+
+        #slider .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: 30px;
+            position: absolute;
+            left: 40%;
+            bottom: 0px;
+            top: 168px;
+        }
+
+        #slider .slider-pera-text {
+            font-size: 16px;
+        }
+
+    .service-text {
+        font-size: 30px;
+    }
+
+    .humanity-text {
+        font-size: 18px;
+    }
+
+    .containing:hover .overlay {
+        height: 66%;
+        display: block;
+    }
+
+    .my-gutter {
+        margin-right: 0;
+        margin-right: 0;
+    }
+
+    .overlay {
+        width: 94.8%;
+        height: 12%;
+    }
+
+    .cause-text {
+        font-size: 18px;
+    }
+
+    .media-money-img-height {
+        height: auto;
+    }
+
+    .make-text {
+        font-size: 30px;
+    }
+
+    .media-other-mt {
+        margin-top: 20px;
+    }
+
+    .gallery-pera {
+        font-size: 18px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    .contact-text {
+        font-size: 30px;
+    }
+
+    .contact-desc {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 35px;
+    }
+
+    #contact-us {
+        padding: 50px 0;
+    }
+
+    .footer-font {
+        font-size: 18px;
+    }
+}
