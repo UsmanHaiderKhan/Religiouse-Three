@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 @font-face {
@@ -45,7 +45,7 @@
     font-family: 'ProximaNova-Regular';
     src: url('../../Fonts/ProximaNova-Regular.otf') format('opentype');
 }
-/*================================= 
+/*=================================
         Font-Family's End
   =================================*/
 
@@ -59,7 +59,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
     Navbar Section Styling
   =================================*/
 
@@ -256,7 +256,7 @@ html, body {
         right: 35px;
     }
 }
-/*================================= 
+/*=================================
     About Section Styling
   =================================*/
 .loving-text {
@@ -319,7 +319,7 @@ html, body {
     font-family: 'HeimatSans-SemiBold';
 }
 
-/*================================= 
+/*=================================
      Slider Section Styling
   =================================*/
 #slider {
@@ -384,7 +384,7 @@ html, body {
 #slider .owl-theme .owl-dots .owl-dot {
     display: flex !important;
 }
-/*================================= 
+/*=================================
     Service Section Styling
   =================================*/
 .humanity-text {
@@ -456,9 +456,9 @@ html, body {
 
 .card-desc-text {
     color: #c8c8c8;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
-    padding: 7px;
+    padding: 3px;
     font-family: 'HeimatSans-Bold';
 }
 
@@ -469,11 +469,17 @@ html, body {
     padding: 10px 0px;
     font-family: 'HeimatSans-Bold';
 }
-/*================================= 
+/*=================================
      Donation Section Styling
   =================================*/
+.radio-active {
+    background-image: -moz-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(9,105,168) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(9,105,168) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(9,105,168) 0%, rgb(39,105,168) 100%);
+}
+
 .donation-bg {
-    padding: 43px 50px;
+    padding: 88px 50px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -652,7 +658,7 @@ html, body {
     margin: 0 10px 10px 0;
 }
 
-/*================================= 
+/*=================================
      Gallery Section Styling
   =================================*/
 
@@ -665,7 +671,7 @@ html, body {
 .no-display {
     display: none;
 }
-/*================================= 
+/*=================================
       Slider Section Styling
   =================================*/
 #owl-slider-section {
@@ -733,7 +739,7 @@ html, body {
     background: transparent;
     color: #0b6cac;
 }
-/*================================= 
+/*=================================
      Contact Section Styling
   =================================*/
 #contact-us {
@@ -862,7 +868,7 @@ html, body {
         text-decoration: none;
         color: #fafcfe;
     }
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
@@ -1321,14 +1327,24 @@ button:focus {
 }
 /*================ Media Query ===============*/
 @media screen and (max-width: 1500px) {
+    .donation-bg {
+        padding: 63px 50px;
+    }
 }
 
 @media screen and (max-width: 1367px) {
+    .donation-bg {
+        padding: 48px 50px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .ml-31-p {
         margin-left: 24% !important;
+    }
+
+    .donation-bg {
+        padding: 43px 50px;
     }
 
     .btn-donate {
@@ -1567,7 +1583,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .ml-31-p {
         margin-left: 15% !important;
     }
@@ -1753,7 +1769,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     .ml-31-p {
         margin-left: 0% !important;
     }
@@ -1918,7 +1934,7 @@ button:focus {
 @media screen and (max-width: 375px) {
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 361px) {
     .sleep {
         padding: 2px 8px 0px 4px;
     }
@@ -1975,8 +1991,8 @@ button:focus {
         margin-top: 20px;
     }
 
-    .media-money-img-height {
-        height: 101.5vh;
+    .donation-bg {
+        padding: 42px 50px;
     }
 }
 
@@ -1984,13 +2000,9 @@ button:focus {
     .media-img-vh {
         height: 86vh;
     }
-
-    .media-money-img-height {
-        height: 102.3vh;
-    }
 }
 
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 824px) and (orientation: landscape) {
     .btn-donate {
         width: 106px;
         height: 39px;
@@ -2509,7 +2521,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 731px) and (orientation: landscape) {
+@media screen and (max-width: 732px) and (orientation: landscape) {
     .btn-donate {
         width: 106px;
         height: 39px;
@@ -2681,7 +2693,7 @@ button:focus {
 @media screen and (max-width: 667px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 640px) and (orientation: landscape) {
+@media screen and (max-width: 641px) and (orientation: landscape) {
     .btn-donate {
         width: 106px;
         height: 39px;
